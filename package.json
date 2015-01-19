@@ -1,8 +1,8 @@
 {
   "name": "trello-nanny",
     "version": "0.0.0",
-    "description": "Trello Nanny",
-    "main": "trello-nanny.js",
+    "description": "Hubot Trello Nanny",
+    "main": "index.coffee",
     "dependencies": {
       "node-trello": "*",
       "node-slack": "*",
