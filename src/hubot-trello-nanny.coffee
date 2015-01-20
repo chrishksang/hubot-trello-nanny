@@ -17,7 +17,7 @@
 Trello = require("node-trello");
 cronJob = require('cron').CronJob;
 
-module.exports (robot)->
+module.exports = (robot) ->
 
   # Initialise variables.
   userNames = process.env.HUBOT_TRELLO_NANNY_USERS.split ','
