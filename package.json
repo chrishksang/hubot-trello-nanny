@@ -1,12 +1,11 @@
 {
-  "name": "trello-nanny",
-    "version": "0.0.0",
+  "name": "hubot-trello-nanny",
+    "version": "0.1.0",
     "description": "Hubot Trello Nanny",
     "main": "index.coffee",
     "dependencies": {
       "node-trello": "*",
-      "node-slack": "*",
-      "sleep": "*"
+      "cron": "~1.0.4"
     },
     "license": "BSD",
     "private": true
